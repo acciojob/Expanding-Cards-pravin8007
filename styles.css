@@ -1,15 +1,15 @@
 /*  your css code here. If applicable */
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f8f8f8;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    height : 100vh;
+    margin : 0;
+    background-color : #f8f8f8;
 }
 
 .container {
-    display: flex;
+    display : flex;
 }
 
 .panel {
@@ -21,13 +21,16 @@ body {
     background-color: #fff;
     border-radius: 10px;
     margin: 10px;
+	width : 100px;
+	height : 300px;
     overflow: hidden;
     transition: flex 0.7s ease-in-out;
 }
 
 .panel img {
     width: 100%;
-    height: auto;
+    height: 100%;
+	contain : fit;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
