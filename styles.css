@@ -23,6 +23,7 @@ body {
     margin: 10px;
 	width : 100px;
 	height : 300px;
+	position : relative ;
     overflow: hidden;
     transition: flex 0.7s ease-in-out;
 }
@@ -40,6 +41,6 @@ body {
 }
 
 .img-text {
-/*     padding: 20px; */
+	
     text-align: center;
 }
